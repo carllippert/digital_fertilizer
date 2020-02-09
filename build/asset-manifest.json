@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.e654ee8d.chunk.js",
-    "main.js.map": "/static/js/main.e654ee8d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e0e867a2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e0e867a2.js.map",
-    "static/js/2.c0739851.chunk.js": "/static/js/2.c0739851.chunk.js",
-    "static/js/2.c0739851.chunk.js.map": "/static/js/2.c0739851.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c25774f6697aff557e8cb31b73c6bd23.js": "/precache-manifest.c25774f6697aff557e8cb31b73c6bd23.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.c0739851.chunk.js.LICENSE.txt": "/static/js/2.c0739851.chunk.js.LICENSE.txt",
-    "static/media/code_agtech.flr": "/static/media/code_agtech.8e8b8c6e.flr"
+    "main.css": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/digital_fertilizer/static/js/main.7938fd14.chunk.js",
+    "main.js.map": "/digital_fertilizer/static/js/main.7938fd14.chunk.js.map",
+    "runtime-main.js": "/digital_fertilizer/static/js/runtime-main.cd231044.js",
+    "runtime-main.js.map": "/digital_fertilizer/static/js/runtime-main.cd231044.js.map",
+    "static/js/2.39e54226.chunk.js": "/digital_fertilizer/static/js/2.39e54226.chunk.js",
+    "static/js/2.39e54226.chunk.js.map": "/digital_fertilizer/static/js/2.39e54226.chunk.js.map",
+    "index.html": "/digital_fertilizer/index.html",
+    "precache-manifest.4de7b97bb95d1ee8fb9ba0674cd789e1.js": "/digital_fertilizer/precache-manifest.4de7b97bb95d1ee8fb9ba0674cd789e1.js",
+    "service-worker.js": "/digital_fertilizer/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.39e54226.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.39e54226.chunk.js.LICENSE.txt",
+    "static/media/code_agtech.flr": "/digital_fertilizer/static/media/code_agtech.8e8b8c6e.flr"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0e867a2.js",
-    "static/js/2.c0739851.chunk.js",
+    "static/js/runtime-main.cd231044.js",
+    "static/js/2.39e54226.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.e654ee8d.chunk.js"
+    "static/js/main.7938fd14.chunk.js"
   ]
 }
