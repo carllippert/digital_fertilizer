@@ -1,8 +1,8 @@
 {
-  "name": "digital_fertilizer_spectacle",
+  "name": "digital_fertilizer",
   "version": "0.1.0",
   "private": true,
-  "home": "https://carllippert.github.io/digital_fertilizer_spectacle",
+  "homepage": "https://carllippert.github.io/digital_fertilizer",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
