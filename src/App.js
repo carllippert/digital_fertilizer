@@ -38,7 +38,12 @@ const images = {
   species: require("./images/specieschart.png"),
   dick: require("./images/DickRobot.jpg"),
   goterra: require("./images/Goterra.jpeg"),
-  rantizo: require("./images/rantizo.jpg")
+  rantizo: require("./images/rantizo.jpg"),
+  glass: require("./images/googleGlass.jpg"),
+  feedMill: require("./images/mil.jpg"),
+  strings: require("./images/strings.jpg"),
+  productDetail: require("./images/productDetail.png"),
+  map: require("./images/map.png")
 };
 
 const theme = createTheme(
@@ -80,12 +85,12 @@ function App() {
       {/* Landscape */}
       <Slide bgImage={images.landscape} />
       {/* Increase in VC funding  */}
+
       {/* Some of my favorite companies */}
       {/* Small Robot Co */}
       <Slide>
         <Heading
           size={2}
-          // fit
           lineHeight={1}
           textColor="secondary"
           textFont="secondary"
@@ -108,7 +113,6 @@ function App() {
       <Slide>
         <Heading
           size={2}
-          // fit
           lineHeight={1}
           textColor="secondary"
           textFont="secondary"
@@ -127,12 +131,10 @@ function App() {
           }}
         />
       </Slide>
-      {/* FBN */}
       {/* Goterra */}
       <Slide>
         <Heading
           size={2}
-          // fit
           lineHeight={1}
           textColor="secondary"
           textFont="secondary"
@@ -152,8 +154,36 @@ function App() {
         />
       </Slide>
       {/* FeedX! */}
+      <Slide bgColor="secondary">
+        <Image src={images.logo} width={800} />
+      </Slide>
       {/* Why */}
+      <Slide>
+        <Heading
+          size={2}
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          Whats wrong?
+        </Heading>
+        <Layout>
+          <Fill>
+            <Image src={images.feedMill} />
+          </Fill>
+          <Fill>
+            <Image src={images.glass} />
+          </Fill>
+        </Layout>
+      </Slide>
       {/* What */}
+      <Slide>
+        <Image src={images.strings} />
+      </Slide>
+      <Slide>
+        <Image src={images.productDetail} />
+      </Slide>
+      <Slide bgImage={images.map}></Slide>
       {/* How */}
       {/* How Tech */}
       {/* Why Wisconsin */}
@@ -176,54 +206,13 @@ function App() {
           file={flare}
         />
       </Slide>
-      <Slide bgColor="secondary">
-        <Image src={images.logo} width={800} />
-      </Slide>
+
       {/* Density */}
       {/* Organization Knowledge */}
       {/* Customers */}
       {/* Real Struggle */}
       {/* Barriers */}
-      <Slide transition={["fade"]} bgColor="tertiary">
-        <Heading size={6} textColor="primary" caps>
-          Typography
-        </Heading>
-        <Heading size={1} textColor="secondary">
-          Heading 1
-        </Heading>
-        <Heading size={2} textColor="secondary">
-          Heading 2
-        </Heading>
-        <Heading size={3} textColor="secondary">
-          Heading 3
-        </Heading>
-        <Heading size={4} textColor="secondary">
-          Heading 4
-        </Heading>
-        <Heading size={5} textColor="secondary">
-          Heading 5
-        </Heading>
-        <Text size={6} textColor="secondary">
-          Standard text
-        </Text>
-      </Slide>
-      <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-        <Heading size={6} textColor="secondary" caps>
-          Standard List
-        </Heading>
-        <List>
-          <ListItem>Item 1</ListItem>
-          <ListItem>Item 2</ListItem>
-          <ListItem>Item 3</ListItem>
-          <ListItem>Item 4</ListItem>
-        </List>
-      </Slide>
-      <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-        <BlockQuote>
-          <Quote>All models are wrong, but some are useful.</Quote>
-          <Cite>George Box</Cite>
-        </BlockQuote>
-      </Slide>
+
       <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
         <BlockQuote>
           <Quote> We wanted flying cars, instead we got 140 characters.</Quote>
