@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/digital_fertilizer/static/js/main.53e2755c.chunk.js",
-    "main.js.map": "/digital_fertilizer/static/js/main.53e2755c.chunk.js.map",
+    "main.js": "/digital_fertilizer/static/js/main.d2b14dbd.chunk.js",
+    "main.js.map": "/digital_fertilizer/static/js/main.d2b14dbd.chunk.js.map",
     "runtime-main.js": "/digital_fertilizer/static/js/runtime-main.cd231044.js",
     "runtime-main.js.map": "/digital_fertilizer/static/js/runtime-main.cd231044.js.map",
     "static/js/2.8b7ba198.chunk.js": "/digital_fertilizer/static/js/2.8b7ba198.chunk.js",
     "static/js/2.8b7ba198.chunk.js.map": "/digital_fertilizer/static/js/2.8b7ba198.chunk.js.map",
     "index.html": "/digital_fertilizer/index.html",
-    "precache-manifest.b86bb5896103a30e4e4467d814a79fe6.js": "/digital_fertilizer/precache-manifest.b86bb5896103a30e4e4467d814a79fe6.js",
+    "precache-manifest.dcd494e4d95c9c4c02398b93559c6742.js": "/digital_fertilizer/precache-manifest.dcd494e4d95c9c4c02398b93559c6742.js",
     "service-worker.js": "/digital_fertilizer/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.8b7ba198.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.8b7ba198.chunk.js.LICENSE.txt",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.cd231044.js",
     "static/js/2.8b7ba198.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.53e2755c.chunk.js"
+    "static/js/main.d2b14dbd.chunk.js"
   ]
 }
