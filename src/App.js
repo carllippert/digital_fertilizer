@@ -236,7 +236,6 @@ function App() {
         <Notes></Notes>
       </Slide>
       {/* How Tech*/}
-      <Slide bgImage={images.code} bgPosition={"center"}></Slide>
       <Slide bgColor="tertiary">
         <Image src={images.code} height={700} width={1000} />
       </Slide>
