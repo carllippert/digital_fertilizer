@@ -47,7 +47,10 @@ const images = {
   strings: require("./images/strings.jpg"),
   productDetail: require("./images/productDetail.png"),
   map: require("./images/map.png"),
-  code: require("./images/feedx_code.png")
+  code: require("./images/feedx_code.png"),
+  investment: require("./images/investment.png"),
+  twitCarl: require("./images/carl.png"),
+  twitFeedX: require("./images/feedxtwitter.png")
 };
 
 const theme = createTheme(
@@ -70,13 +73,12 @@ function App() {
   return (
     <Deck theme={theme} transition={["slide"]}>
       <Slide
-        transition={["zoom"]}
+        // transition={["zoom"]}
         bgColor="quaternary"
         bgImage={images.birdsEye}
       >
         <Heading
           size={2}
-          // fit
           lineHeight={1}
           textColor="secondary"
           textFont="secondary"
@@ -89,7 +91,13 @@ function App() {
       {/* Landscape */}
       <Slide bgImage={images.landscape} />
       {/* Increase in VC funding  */}
-
+      <Slide>
+        <Image src={images.investment} />
+        <Notes>
+          Mention Indigo Ag -> $600million raised = Terraton Initiative FBN ->
+          $300m raised -> farm group buying and transparency. The new coop.
+        </Notes>
+      </Slide>
       {/* Some of my favorite companies */}
       {/* Small Robot Co */}
       <Slide>
@@ -169,7 +177,7 @@ function App() {
           textColor="secondary"
           textFont="secondary"
         >
-          Whats wrong?
+          What are we solving?
         </Heading>
         <Layout>
           <Fill>
@@ -231,12 +239,22 @@ function App() {
       </Slide>
 
       {/* Density */}
+      <Slide>
+        <Notes>
+          Dairy --- 8,000 Dairy Farms 43.4 billion to the economy 215,000 full
+          time jobs. Other ---- 62% of nations cranberrry crop 5.55 million
+          barrels 1200 licensed cheesmakers - Nearly double in cheese of any
+          other state. Wisconsin ranks first in the nation for: snap beans for
+          processing, cheese, cranberries, ginseng, mink pelts, dry whey for
+          humans, milk goats and corn for silage
+        </Notes>
+      </Slide>
       {/* Organization Knowledge */}
       {/* Customers */}
       {/* Real Struggle */}
       {/* Barriers */}
 
-      <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+      <Slide bgColor="secondary" textColor="primary">
         <BlockQuote>
           <Quote> We wanted flying cars, instead we got 140 characters.</Quote>
           <Cite>Peter Thiel</Cite>
@@ -244,7 +262,14 @@ function App() {
       </Slide>
 
       <Slide>
-        {/* <Iframe url="https://feedx.io" width="100%" height="100%" /> */}
+        <Layout>
+          <Fill>
+            <Image src={images.twitCarl} />
+          </Fill>
+          <Fill>
+            <Image src={images.twitFeedX} />
+          </Fill>
+        </Layout>
       </Slide>
     </Deck>
   );

@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/digital_fertilizer/static/js/main.d02d875c.chunk.js",
-    "main.js.map": "/digital_fertilizer/static/js/main.d02d875c.chunk.js.map",
+    "main.js": "/digital_fertilizer/static/js/main.c9201c76.chunk.js",
+    "main.js.map": "/digital_fertilizer/static/js/main.c9201c76.chunk.js.map",
     "runtime-main.js": "/digital_fertilizer/static/js/runtime-main.cd231044.js",
     "runtime-main.js.map": "/digital_fertilizer/static/js/runtime-main.cd231044.js.map",
-    "static/js/2.6247539b.chunk.js": "/digital_fertilizer/static/js/2.6247539b.chunk.js",
-    "static/js/2.6247539b.chunk.js.map": "/digital_fertilizer/static/js/2.6247539b.chunk.js.map",
+    "static/js/2.f08b4f9c.chunk.js": "/digital_fertilizer/static/js/2.f08b4f9c.chunk.js",
+    "static/js/2.f08b4f9c.chunk.js.map": "/digital_fertilizer/static/js/2.f08b4f9c.chunk.js.map",
     "index.html": "/digital_fertilizer/index.html",
-    "precache-manifest.8753c6f7827ab63001714dce9496ae5c.js": "/digital_fertilizer/precache-manifest.8753c6f7827ab63001714dce9496ae5c.js",
+    "precache-manifest.75ce44f8d8e9372e0368dc9bedf8e6e2.js": "/digital_fertilizer/precache-manifest.75ce44f8d8e9372e0368dc9bedf8e6e2.js",
     "service-worker.js": "/digital_fertilizer/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.6247539b.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.6247539b.chunk.js.LICENSE.txt",
+    "static/js/2.f08b4f9c.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.f08b4f9c.chunk.js.LICENSE.txt",
     "static/media/DickRobot.jpg": "/digital_fertilizer/static/media/DickRobot.30448bda.jpg",
     "static/media/Goterra.jpeg": "/digital_fertilizer/static/media/Goterra.15717399.jpeg",
     "static/media/agtech_landscape.jpg": "/digital_fertilizer/static/media/agtech_landscape.e32c38cc.jpg",
     "static/media/animalagtechmap.png": "/digital_fertilizer/static/media/animalagtechmap.58bda446.png",
     "static/media/animaltypechart.png": "/digital_fertilizer/static/media/animaltypechart.d0eba591.png",
     "static/media/birdseyecombine.jpg": "/digital_fertilizer/static/media/birdseyecombine.43ed0249.jpg",
+    "static/media/carl.png": "/digital_fertilizer/static/media/carl.94cb48b3.png",
     "static/media/code_agtech.flr": "/digital_fertilizer/static/media/code_agtech.8e8b8c6e.flr",
     "static/media/feedx.svg": "/digital_fertilizer/static/media/feedx.ec777d36.svg",
     "static/media/feedx_code.png": "/digital_fertilizer/static/media/feedx_code.97423255.png",
+    "static/media/feedxtwitter.png": "/digital_fertilizer/static/media/feedxtwitter.7f2cb8e0.png",
     "static/media/googleGlass.jpg": "/digital_fertilizer/static/media/googleGlass.e5899810.jpg",
+    "static/media/investment.png": "/digital_fertilizer/static/media/investment.128828ce.png",
     "static/media/map.png": "/digital_fertilizer/static/media/map.83d307d9.png",
     "static/media/mil.jpg": "/digital_fertilizer/static/media/mil.d39aa431.jpg",
     "static/media/productDetail.png": "/digital_fertilizer/static/media/productDetail.d41fd610.png",
@@ -31,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cd231044.js",
-    "static/js/2.6247539b.chunk.js",
+    "static/js/2.f08b4f9c.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.d02d875c.chunk.js"
+    "static/js/main.c9201c76.chunk.js"
   ]
 }
