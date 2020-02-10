@@ -215,21 +215,15 @@ function App() {
           More specificly.
         </Heading>
         <List>
-          <Appear>
-            <ListItem>Nutrition Data</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Market Data</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Financing</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Logistics</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Communication & Data Sharing</ListItem>
-          </Appear>
+          <ListItem>Nutrition Data</ListItem>
+
+          <ListItem>Market Data</ListItem>
+
+          <ListItem>Financing</ListItem>
+
+          <ListItem>Logistics</ListItem>
+
+          <ListItem>Communication & Data Sharing</ListItem>
         </List>
         <Notes></Notes>
       </Slide>
@@ -269,18 +263,13 @@ function App() {
           Density 🧀
         </Heading>
         <List>
-          <Appear>
-            <ListItem>Cheese - 2x any other state</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Dairies - 8,000 </ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Cranberries - 62% of nations crop</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Top Ginseng State</ListItem>
-          </Appear>
+          <ListItem>Cheese - 2x any other state</ListItem>
+
+          <ListItem>Dairies - 8,000 </ListItem>
+
+          <ListItem>Cranberries - 62% of nations crop</ListItem>
+
+          <ListItem>Top Ginseng State</ListItem>
         </List>
         <Notes>
           Dairy --- 8,000 Dairy Farms 43.4 billion to the economy 215,000 full
@@ -306,18 +295,13 @@ function App() {
           Knowledge
         </Heading>
         <List>
-          <Appear>
-            <ListItem>The farmers</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>The Universities</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Businesses</ListItem>
-          </Appear>
-          <Appear>
-            <ListItem>Trade Orgs</ListItem>
-          </Appear>
+          <ListItem>The farmers</ListItem>
+
+          <ListItem>The Universities</ListItem>
+
+          <ListItem>Businesses</ListItem>
+
+          <ListItem>Trade Orgs</ListItem>
         </List>
         <Notes>
           People -> Culturally jarring to go from madison to somewhere else (
@@ -351,17 +335,6 @@ function App() {
           <Cite>Peter Thiel</Cite>
         </BlockQuote>
       </Slide>
-
-      {/* <Slide>
-        <Layout>
-          <Fill>
-            <Image src={images.twitCarl} />
-          </Fill>
-          <Fill>
-            <Image src={images.twitFeedX} />
-          </Fill>
-        </Layout>
-      </Slide> */}
       <Slide bgColor="secondary" textColor="primary">
         <Fill>
           <Image src={images.logo} />
