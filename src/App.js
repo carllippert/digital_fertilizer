@@ -1,17 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-import Iframe from "react-iframe";
 import {
-  TwitterTimelineEmbed,
-  TwitterShareButton,
-  TwitterFollowButton,
-  TwitterHashtagButton,
-  TwitterMentionButton,
   TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton
+  TwitterFollowButton,
+  TwitterTimelineEmbed
 } from "react-twitter-embed";
 import {
   BlockQuote,
@@ -25,55 +16,85 @@ import {
   Slide,
   Text,
   Fill,
-  Notes
+  Notes,
+  Fit,
+  Layout,
+  Appear
 } from "spectacle";
 import createTheme from "spectacle/lib/themes/default";
 
-import FlareComponent from "flare-react";
+// import FlareComponent from "flare-react";
 
 const flare = require("./images/code_agtech.flr");
 
 const images = {
-  logo: require("./images/logo.png")
-  // goodWork: require('../assets/good-work.gif')
+  logo: require("./images/feedx.svg"),
+  birdsEye: require("./images/birdseyecombine.jpg"),
+  landscape: require("./images/agtech_landscape.jpg"),
+  animal: require("./images/animalagtechmap.png"),
+  section: require("./images/animaltypechart.png"),
+  species: require("./images/specieschart.png")
 };
 
-const theme = createTheme();
-// {
-//   primary: "white",
-//   secondary: "#1F2022",
-//   tertiary: "#03A9FC",
-//   quaternary: "#cccccc"
-// },
-// {
-//   primary: "Montserrat",
-//   secondary: "Helvetica"
-// }
+const theme = createTheme(
+  {
+    primary: "white",
+    secondary: "#1F2022",
+    tertiary: "#03A9FC",
+    quaternary: "#cccccc"
+  },
+  {
+    primary: "Montserrat",
+    secondary: "Helvetica"
+  }
+);
 
 function App() {
   return (
-    <Deck theme={theme} transition={["zoom", "slide"]} transitionDuration={500}>
-      <Slide transition={["zoom"]} bgColor="quaternary">
+    <Deck theme={theme} transition={["slide"]}>
+      <Slide
+        transition={["zoom"]}
+        bgColor="quaternary"
+        bgImage={images.birdsEye}
+      >
         <Heading
           size={1}
           fit
           lineHeight={1}
           textColor="secondary"
           textFont="secondary"
+          style={{ textDecoration: "underline" }}
         >
-          The Case for AgTech In Wisconsin
+          The State of AgTech
         </Heading>
         <div style={{ height: "30px" }}></div>
-        <FlareComponent
+        <Notes>Hi All Immmm Carl .</Notes>
+      </Slide>
+      <Slide bgImage={images.landscape} />
+      <Slide bgImage={images.animal} />
+      <Slide bgImage={images.section} />
+      <Slide bgImage={images.species} />
+      <Slide transition={["zoom"]} bgColor="quaternary">
+        <Appear>
+          <Heading
+            size={1}
+            fit
+            lineHeight={1}
+            textColor="secondary"
+            textFont="secondary"
+          >
+            The Case for AgTech In Wisconsin
+          </Heading>
+        </Appear>
+
+        <div style={{ height: "30px" }}></div>
+        {/* <FlareComponent
           width={700}
           height={650}
           animationName="coding"
           file={flare}
-        />
+        /> */}
         <Notes>Hi All Immmm Carl .</Notes>
-        {/* <Text margin="10px 0 0" textColor="tertiary" fit bold>
-          open the presentation/index.js file to get started
-        </Text> */}
       </Slide>
       <Slide bgColor="secondary">
         <Image src={images.logo} width={800} />
@@ -127,7 +148,7 @@ function App() {
         <Image src={images.logo} width={500} />
       </Slide>
       <Slide>
-        <Iframe url="https://feedx.io" width="100%" height="100%" />
+        {/* <Iframe url="https://feedx.io" width="100%" height="100%" /> */}
       </Slide>
     </Deck>
   );

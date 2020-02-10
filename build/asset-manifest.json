@@ -1,23 +1,29 @@
 {
   "files": {
     "main.css": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/digital_fertilizer/static/js/main.7938fd14.chunk.js",
-    "main.js.map": "/digital_fertilizer/static/js/main.7938fd14.chunk.js.map",
+    "main.js": "/digital_fertilizer/static/js/main.bd00325e.chunk.js",
+    "main.js.map": "/digital_fertilizer/static/js/main.bd00325e.chunk.js.map",
     "runtime-main.js": "/digital_fertilizer/static/js/runtime-main.cd231044.js",
     "runtime-main.js.map": "/digital_fertilizer/static/js/runtime-main.cd231044.js.map",
-    "static/js/2.39e54226.chunk.js": "/digital_fertilizer/static/js/2.39e54226.chunk.js",
-    "static/js/2.39e54226.chunk.js.map": "/digital_fertilizer/static/js/2.39e54226.chunk.js.map",
+    "static/js/2.60acdee1.chunk.js": "/digital_fertilizer/static/js/2.60acdee1.chunk.js",
+    "static/js/2.60acdee1.chunk.js.map": "/digital_fertilizer/static/js/2.60acdee1.chunk.js.map",
     "index.html": "/digital_fertilizer/index.html",
-    "precache-manifest.4de7b97bb95d1ee8fb9ba0674cd789e1.js": "/digital_fertilizer/precache-manifest.4de7b97bb95d1ee8fb9ba0674cd789e1.js",
+    "precache-manifest.b1ad6d9baf3c1c12c2ad2d89f92ead75.js": "/digital_fertilizer/precache-manifest.b1ad6d9baf3c1c12c2ad2d89f92ead75.js",
     "service-worker.js": "/digital_fertilizer/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.39e54226.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.39e54226.chunk.js.LICENSE.txt",
-    "static/media/code_agtech.flr": "/digital_fertilizer/static/media/code_agtech.8e8b8c6e.flr"
+    "static/js/2.60acdee1.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.60acdee1.chunk.js.LICENSE.txt",
+    "static/media/agtech_landscape.jpg": "/digital_fertilizer/static/media/agtech_landscape.e32c38cc.jpg",
+    "static/media/animalagtechmap.png": "/digital_fertilizer/static/media/animalagtechmap.58bda446.png",
+    "static/media/animaltypechart.png": "/digital_fertilizer/static/media/animaltypechart.d0eba591.png",
+    "static/media/birdseyecombine.jpg": "/digital_fertilizer/static/media/birdseyecombine.43ed0249.jpg",
+    "static/media/code_agtech.flr": "/digital_fertilizer/static/media/code_agtech.8e8b8c6e.flr",
+    "static/media/feedx.svg": "/digital_fertilizer/static/media/feedx.ec777d36.svg",
+    "static/media/specieschart.png": "/digital_fertilizer/static/media/specieschart.03741cae.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cd231044.js",
-    "static/js/2.39e54226.chunk.js",
+    "static/js/2.60acdee1.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7938fd14.chunk.js"
+    "static/js/main.bd00325e.chunk.js"
   ]
 }
