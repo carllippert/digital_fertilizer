@@ -6,7 +6,6 @@ import React from "react";
 // } from "react-twitter-embed";
 import YouTube from "react-youtube";
 import {
-  MarkdownSlides,
   BlockQuote,
   Cite,
   Deck,
@@ -16,19 +15,15 @@ import {
   ListItem,
   Quote,
   Slide,
-  Text,
   Fill,
   Notes,
-  Fit,
   Layout,
-  Appear,
-  Code,
-  CodePane
+  Appear
 } from "spectacle";
+
 import createTheme from "spectacle/lib/themes/default";
 
 import FlareComponent from "flare-react";
-import ImageSlide from "./components/ImageSlide";
 
 const flare = require("./images/code_agtech.flr");
 
@@ -50,7 +45,8 @@ const images = {
   code: require("./images/feedx_code.png"),
   investment: require("./images/investment.png"),
   twitCarl: require("./images/carl.png"),
-  twitFeedX: require("./images/feedxtwitter.png")
+  twitFeedX: require("./images/feedxtwitter.png"),
+  usOfD: require("./images/unitedstatesofdairy.jpeg")
 };
 
 const theme = createTheme(
@@ -63,7 +59,6 @@ const theme = createTheme(
   {
     primary: "Montserrat",
     secondary: "Montserrat"
-    // secondary: "Helvetica"
   }
 );
 
@@ -72,11 +67,7 @@ const Spacer = () => <div style={{ height: "0px" }} />;
 function App() {
   return (
     <Deck theme={theme} transition={["slide"]}>
-      <Slide
-        // transition={["zoom"]}
-        bgColor="quaternary"
-        bgImage={images.birdsEye}
-      >
+      <Slide bgColor="quaternary" bgImage={images.birdsEye}>
         <Heading
           size={2}
           lineHeight={1}
@@ -198,24 +189,7 @@ function App() {
       <Slide bgImage={images.map}></Slide>
       {/* How */}
       <Slide bgImage={images.code}></Slide>
-      <Slide>
-        {/* <Heading
-          size={1}
-          lineHeight={1} 
-          textColor="secondary"
-          textFont="secondary"
-        >
-          Technical Bits
-        </Heading>
-        <List>
-          <ListItem>Lerna - Mono Repo</ListItem>
-          <ListItem>Gatsby</ListItem>
-          <ListItem>Hasura - Graphql</ListItem>
-          <ListItem>Lambda</ListItem>
-          <ListItem>PostGIS</ListItem>
-          <ListItem>FreighQuote - Mothership - XPO</ListItem>
-        </List> */}
-      </Slide>
+      <Slide></Slide>
       {/* How Tech */}
       {/* Why Wisconsin */}
       <Slide transition={["zoom"]} bgColor="quaternary">
@@ -240,6 +214,28 @@ function App() {
 
       {/* Density */}
       <Slide>
+        <Heading
+          size={1}
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          Density 🧀
+        </Heading>
+        <List>
+          <Appear>
+            <ListItem>Cheese - 2x any other state</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Dairies - 8,000 customers</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Cranberries - 62% of nations crop</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Top Ginseng State</ListItem>
+          </Appear>
+        </List>
         <Notes>
           Dairy --- 8,000 Dairy Farms 43.4 billion to the economy 215,000 full
           time jobs. Other ---- 62% of nations cranberrry crop 5.55 million
@@ -249,10 +245,15 @@ function App() {
           humans, milk goats and corn for silage
         </Notes>
       </Slide>
+      <Slide>
+        <Image src={images.usOfD} />
+      </Slide>
+
       {/* Organization Knowledge */}
+
       {/* Customers */}
+
       {/* Real Struggle */}
-      {/* Barriers */}
 
       <Slide bgColor="secondary" textColor="primary">
         <BlockQuote>

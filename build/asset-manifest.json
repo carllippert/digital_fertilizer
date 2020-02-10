@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/digital_fertilizer/static/js/main.c9201c76.chunk.js",
-    "main.js.map": "/digital_fertilizer/static/js/main.c9201c76.chunk.js.map",
+    "main.js": "/digital_fertilizer/static/js/main.25db1223.chunk.js",
+    "main.js.map": "/digital_fertilizer/static/js/main.25db1223.chunk.js.map",
     "runtime-main.js": "/digital_fertilizer/static/js/runtime-main.cd231044.js",
     "runtime-main.js.map": "/digital_fertilizer/static/js/runtime-main.cd231044.js.map",
-    "static/js/2.f08b4f9c.chunk.js": "/digital_fertilizer/static/js/2.f08b4f9c.chunk.js",
-    "static/js/2.f08b4f9c.chunk.js.map": "/digital_fertilizer/static/js/2.f08b4f9c.chunk.js.map",
+    "static/js/2.2884eafd.chunk.js": "/digital_fertilizer/static/js/2.2884eafd.chunk.js",
+    "static/js/2.2884eafd.chunk.js.map": "/digital_fertilizer/static/js/2.2884eafd.chunk.js.map",
     "index.html": "/digital_fertilizer/index.html",
-    "precache-manifest.75ce44f8d8e9372e0368dc9bedf8e6e2.js": "/digital_fertilizer/precache-manifest.75ce44f8d8e9372e0368dc9bedf8e6e2.js",
+    "precache-manifest.177a2ed9f728959740b5de3b144705f9.js": "/digital_fertilizer/precache-manifest.177a2ed9f728959740b5de3b144705f9.js",
     "service-worker.js": "/digital_fertilizer/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/digital_fertilizer/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.f08b4f9c.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.f08b4f9c.chunk.js.LICENSE.txt",
+    "static/js/2.2884eafd.chunk.js.LICENSE.txt": "/digital_fertilizer/static/js/2.2884eafd.chunk.js.LICENSE.txt",
     "static/media/DickRobot.jpg": "/digital_fertilizer/static/media/DickRobot.30448bda.jpg",
     "static/media/Goterra.jpeg": "/digital_fertilizer/static/media/Goterra.15717399.jpeg",
     "static/media/agtech_landscape.jpg": "/digital_fertilizer/static/media/agtech_landscape.e32c38cc.jpg",
@@ -30,12 +30,13 @@
     "static/media/productDetail.png": "/digital_fertilizer/static/media/productDetail.d41fd610.png",
     "static/media/rantizo.jpg": "/digital_fertilizer/static/media/rantizo.d09d6869.jpg",
     "static/media/specieschart.png": "/digital_fertilizer/static/media/specieschart.03741cae.png",
-    "static/media/strings.jpg": "/digital_fertilizer/static/media/strings.75b8cbf5.jpg"
+    "static/media/strings.jpg": "/digital_fertilizer/static/media/strings.75b8cbf5.jpg",
+    "static/media/unitedstatesofdairy.jpeg": "/digital_fertilizer/static/media/unitedstatesofdairy.3de1c954.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.cd231044.js",
-    "static/js/2.f08b4f9c.chunk.js",
+    "static/js/2.2884eafd.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c9201c76.chunk.js"
+    "static/js/main.25db1223.chunk.js"
   ]
 }
