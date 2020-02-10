@@ -1,9 +1,5 @@
 import React from "react";
-// import {
-//   TwitterTweetEmbed,
-//   TwitterFollowButton,
-//   TwitterTimelineEmbed
-// } from "react-twitter-embed";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 import YouTube from "react-youtube";
 import {
   BlockQuote,
@@ -49,14 +45,17 @@ const images = {
   usOfD: require("./images/unitedstatesofdairy.jpeg"),
   graphql: require("./images/graphql.png"),
   untapped: require("./images/untapped.png"),
-  last: require("./images/last.png")
+  last: require("./images/last.png"),
+  fax: require("./images/fax.jpg"),
+  feedmanager: require("./images/feedmngr.png"),
+  feedmanagerWeb: require("./images/feedmngrweb.png")
 };
 
 const theme = createTheme(
   {
     primary: "white",
     secondary: "#1F2022",
-    tertiary: "#03A9FC",
+    tertiary: "#f2f2f2",
     quaternary: "#cccccc"
   },
   {
@@ -192,7 +191,21 @@ function App() {
       <Slide>
         <Image src={images.productDetail} />
       </Slide>
+      <Slide>
+        <Layout>
+          <Fill>
+            <TwitterTweetEmbed tweetId={"1135944683681722375"} />
+          </Fill>
+          <Fill align="center center">
+            <Image src={images.feedmanager} />
+          </Fill>
+        </Layout>
+      </Slide>
       <Slide bgImage={images.map}></Slide>
+      <Slide align="center center">
+        <Image src={images.fax} />
+      </Slide>
+
       {/* How */}
       <Slide>
         <Heading
@@ -208,6 +221,9 @@ function App() {
             <ListItem>Nutrition Data</ListItem>
           </Appear>
           <Appear>
+            <ListItem>Market Data</ListItem>
+          </Appear>
+          <Appear>
             <ListItem>Financing</ListItem>
           </Appear>
           <Appear>
@@ -220,7 +236,10 @@ function App() {
         <Notes></Notes>
       </Slide>
       {/* How Tech*/}
-      <Slide bgImage={images.code}></Slide>
+      <Slide bgImage={images.code} bgPosition={"center"}></Slide>
+      <Slide bgColor="tertiary">
+        <Image src={images.code} height={700} width={1000} />
+      </Slide>
       {/* Why Wisconsin */}
       <Slide transition={["zoom"]} bgColor="quaternary">
         <Heading
@@ -257,7 +276,7 @@ function App() {
             <ListItem>Cheese - 2x any other state</ListItem>
           </Appear>
           <Appear>
-            <ListItem>Dairies - 8,000 customers</ListItem>
+            <ListItem>Dairies - 8,000 </ListItem>
           </Appear>
           <Appear>
             <ListItem>Cranberries - 62% of nations crop</ListItem>
@@ -316,29 +335,6 @@ function App() {
         </Notes>
       </Slide>
 
-      {/* Customers */}
-      <Slide>
-        <Heading
-          size={1}
-          lineHeight={1}
-          textColor="secondary"
-          textFont="secondary"
-        >
-          CUSTOMERS
-        </Heading>
-        <List>
-          <ListItem>The people</ListItem>
-
-          <ListItem>The farmers</ListItem>
-
-          <ListItem>The Universities</ListItem>
-
-          <ListItem>Businesses</ListItem>
-
-          <ListItem>Trade Orgs</ListItem>
-        </List>
-        <Notes>These are all customers</Notes>
-      </Slide>
       <Slide>
         <Layout>
           <Fill>
@@ -362,7 +358,7 @@ function App() {
         </BlockQuote>
       </Slide>
 
-      <Slide>
+      {/* <Slide>
         <Layout>
           <Fill>
             <Image src={images.twitCarl} />
@@ -371,6 +367,25 @@ function App() {
             <Image src={images.twitFeedX} />
           </Fill>
         </Layout>
+      </Slide> */}
+      <Slide bgColor="secondary" textColor="primary">
+        <Fill>
+          <Image src={images.logo} />
+        </Fill>
+        <Layout>
+          <Fill>
+            <List>
+              <ListItem>Twitter -> @carllippert</ListItem>
+              <ListItem>FeedX -> feedx.io</ListItem>
+              <ListItem>FeedsForLess -> feedsforless.com</ListItem>
+              <ListItem>Feed Manager -> feedmanager.io</ListItem>
+              <ListItem>
+                Slides -> carllippert.github.io/digital_fertilizer
+              </ListItem>
+            </List>
+          </Fill>
+        </Layout>
+        <Notes>These are all customers</Notes>
       </Slide>
     </Deck>
   );
