@@ -46,7 +46,10 @@ const images = {
   investment: require("./images/investment.png"),
   twitCarl: require("./images/carl.png"),
   twitFeedX: require("./images/feedxtwitter.png"),
-  usOfD: require("./images/unitedstatesofdairy.jpeg")
+  usOfD: require("./images/unitedstatesofdairy.jpeg"),
+  graphql: require("./images/graphql.png"),
+  untapped: require("./images/untapped.png"),
+  last: require("./images/last.png")
 };
 
 const theme = createTheme(
@@ -184,13 +187,40 @@ function App() {
         <Image src={images.strings} />
       </Slide>
       <Slide>
+        <Image src={images.graphql} />
+      </Slide>
+      <Slide>
         <Image src={images.productDetail} />
       </Slide>
       <Slide bgImage={images.map}></Slide>
       {/* How */}
+      <Slide>
+        <Heading
+          size={1}
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          More specificly.
+        </Heading>
+        <List>
+          <Appear>
+            <ListItem>Nutrition Data</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Financing</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Logistics</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Communication & Data Sharing</ListItem>
+          </Appear>
+        </List>
+        <Notes></Notes>
+      </Slide>
+      {/* How Tech*/}
       <Slide bgImage={images.code}></Slide>
-      <Slide></Slide>
-      {/* How Tech */}
       {/* Why Wisconsin */}
       <Slide transition={["zoom"]} bgColor="quaternary">
         <Heading
@@ -250,11 +280,81 @@ function App() {
       </Slide>
 
       {/* Organization Knowledge */}
+      <Slide>
+        <Heading
+          size={1}
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          Organizational Knowledge
+        </Heading>
+        <List>
+          <Appear>
+            <ListItem>The people</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>The farmers</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>The Universities</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Businesses</ListItem>
+          </Appear>
+          <Appear>
+            <ListItem>Trade Orgs</ListItem>
+          </Appear>
+        </List>
+        <Notes>
+          People -> Culturally jarring to go from madison to somewhere else (
+          this is good ){/*  */}
+          Farmers -> Thousands of translaters
+          {/*  */}
+          The Universities -> 6th highest R&D spend in the country Business ->
+          Proximity to huge "markets" -> Chicago
+        </Notes>
+      </Slide>
 
       {/* Customers */}
+      <Slide>
+        <Heading
+          size={1}
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          CUSTOMERS
+        </Heading>
+        <List>
+          <ListItem>The people</ListItem>
+
+          <ListItem>The farmers</ListItem>
+
+          <ListItem>The Universities</ListItem>
+
+          <ListItem>Businesses</ListItem>
+
+          <ListItem>Trade Orgs</ListItem>
+        </List>
+        <Notes>These are all customers</Notes>
+      </Slide>
+      <Slide>
+        <Layout>
+          <Fill>
+            <Image src={images.untapped} />
+          </Fill>
+
+          <div style={{ width: "50px", height: "50px" }}></div>
+          <Appear>
+            <Fill>
+              <Image src={images.last} />
+            </Fill>
+          </Appear>
+        </Layout>
+      </Slide>
 
       {/* Real Struggle */}
-
       <Slide bgColor="secondary" textColor="primary">
         <BlockQuote>
           <Quote> We wanted flying cars, instead we got 140 characters.</Quote>
