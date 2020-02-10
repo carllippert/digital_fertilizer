@@ -6,6 +6,7 @@ import React from "react";
 // } from "react-twitter-embed";
 import YouTube from "react-youtube";
 import {
+  MarkdownSlides,
   BlockQuote,
   Cite,
   Deck,
@@ -20,7 +21,9 @@ import {
   Notes,
   Fit,
   Layout,
-  Appear
+  Appear,
+  Code,
+  CodePane
 } from "spectacle";
 import createTheme from "spectacle/lib/themes/default";
 
@@ -43,7 +46,8 @@ const images = {
   feedMill: require("./images/mil.jpg"),
   strings: require("./images/strings.jpg"),
   productDetail: require("./images/productDetail.png"),
-  map: require("./images/map.png")
+  map: require("./images/map.png"),
+  code: require("./images/feedx_code.png")
 };
 
 const theme = createTheme(
@@ -185,6 +189,25 @@ function App() {
       </Slide>
       <Slide bgImage={images.map}></Slide>
       {/* How */}
+      <Slide bgImage={images.code}></Slide>
+      <Slide>
+        {/* <Heading
+          size={1}
+          lineHeight={1} 
+          textColor="secondary"
+          textFont="secondary"
+        >
+          Technical Bits
+        </Heading>
+        <List>
+          <ListItem>Lerna - Mono Repo</ListItem>
+          <ListItem>Gatsby</ListItem>
+          <ListItem>Hasura - Graphql</ListItem>
+          <ListItem>Lambda</ListItem>
+          <ListItem>PostGIS</ListItem>
+          <ListItem>FreighQuote - Mothership - XPO</ListItem>
+        </List> */}
+      </Slide>
       {/* How Tech */}
       {/* Why Wisconsin */}
       <Slide transition={["zoom"]} bgColor="quaternary">
