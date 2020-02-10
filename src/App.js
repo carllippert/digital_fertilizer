@@ -1,9 +1,10 @@
 import React from "react";
-import {
-  TwitterTweetEmbed,
-  TwitterFollowButton,
-  TwitterTimelineEmbed
-} from "react-twitter-embed";
+// import {
+//   TwitterTweetEmbed,
+//   TwitterFollowButton,
+//   TwitterTimelineEmbed
+// } from "react-twitter-embed";
+import YouTube from "react-youtube";
 import {
   BlockQuote,
   Cite,
@@ -23,7 +24,8 @@ import {
 } from "spectacle";
 import createTheme from "spectacle/lib/themes/default";
 
-// import FlareComponent from "flare-react";
+import FlareComponent from "flare-react";
+import ImageSlide from "./components/ImageSlide";
 
 const flare = require("./images/code_agtech.flr");
 
@@ -33,7 +35,10 @@ const images = {
   landscape: require("./images/agtech_landscape.jpg"),
   animal: require("./images/animalagtechmap.png"),
   section: require("./images/animaltypechart.png"),
-  species: require("./images/specieschart.png")
+  species: require("./images/specieschart.png"),
+  dick: require("./images/DickRobot.jpg"),
+  goterra: require("./images/Goterra.jpeg"),
+  rantizo: require("./images/rantizo.jpg")
 };
 
 const theme = createTheme(
@@ -45,9 +50,12 @@ const theme = createTheme(
   },
   {
     primary: "Montserrat",
-    secondary: "Helvetica"
+    secondary: "Montserrat"
+    // secondary: "Helvetica"
   }
 );
+
+const Spacer = () => <div style={{ height: "0px" }} />;
 
 function App() {
   return (
@@ -58,8 +66,8 @@ function App() {
         bgImage={images.birdsEye}
       >
         <Heading
-          size={1}
-          fit
+          size={2}
+          // fit
           lineHeight={1}
           textColor="secondary"
           textFont="secondary"
@@ -68,42 +76,114 @@ function App() {
           The State of AgTech
         </Heading>
         <div style={{ height: "30px" }}></div>
-        <Notes>Hi All Immmm Carl .</Notes>
       </Slide>
+      {/* Landscape */}
       <Slide bgImage={images.landscape} />
-      <Slide bgImage={images.animal} />
-      <Slide bgImage={images.section} />
-      <Slide bgImage={images.species} />
+      {/* Increase in VC funding  */}
+      {/* Some of my favorite companies */}
+      {/* Small Robot Co */}
+      <Slide>
+        <Heading
+          size={2}
+          // fit
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          Small Robot Company
+        </Heading>
+        <Image src={images.dick} />
+      </Slide>
+      <Slide>
+        <YouTube
+          videoId={"tnaN7FlPfEo"}
+          opts={{
+            height: "700",
+            width: "1000",
+            playerVars: { autoplay: 1 }
+          }}
+        />
+      </Slide>
+      {/* Rantizo */}
+      <Slide>
+        <Heading
+          size={2}
+          // fit
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          Rantizo
+        </Heading>
+        <Image src={images.rantizo} />
+      </Slide>
+      <Slide>
+        <YouTube
+          videoId={"KPRhrDOiGvc"}
+          opts={{
+            height: "700",
+            width: "1000",
+            playerVars: { autoplay: 1 }
+          }}
+        />
+      </Slide>
+      {/* FBN */}
+      {/* Goterra */}
+      <Slide>
+        <Heading
+          size={2}
+          // fit
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          Goterra
+        </Heading>
+        <Image src={images.goterra} />
+      </Slide>
+      <Slide>
+        <YouTube
+          videoId={"pyU3faF-8ak"}
+          opts={{
+            height: "700",
+            width: "1000",
+            playerVars: { autoplay: 1, start: 16 }
+          }}
+        />
+      </Slide>
+      {/* FeedX! */}
+      {/* Why */}
+      {/* What */}
+      {/* How */}
+      {/* How Tech */}
+      {/* Why Wisconsin */}
       <Slide transition={["zoom"]} bgColor="quaternary">
-        <Appear>
-          <Heading
-            size={1}
-            fit
-            lineHeight={1}
-            textColor="secondary"
-            textFont="secondary"
-          >
-            The Case for AgTech In Wisconsin
-          </Heading>
-        </Appear>
+        <Heading
+          size={1}
+          fit
+          lineHeight={1}
+          textColor="secondary"
+          textFont="secondary"
+        >
+          The Case for AgTech In Wisconsin
+        </Heading>
 
         <div style={{ height: "30px" }}></div>
-        {/* <FlareComponent
+        <FlareComponent
           width={700}
           height={650}
           animationName="coding"
           file={flare}
-        /> */}
-        <Notes>Hi All Immmm Carl .</Notes>
+        />
       </Slide>
       <Slide bgColor="secondary">
         <Image src={images.logo} width={800} />
       </Slide>
-      <Slide>
-        <Fill>
-          <TwitterTweetEmbed tweetId={"1226585357271076870"} />
-        </Fill>
-      </Slide>
+      {/* Density */}
+      {/* Organization Knowledge */}
+      {/* Customers */}
+      {/* Real Struggle */}
+      {/* Barriers */}
       <Slide transition={["fade"]} bgColor="tertiary">
         <Heading size={6} textColor="primary" caps>
           Typography
@@ -144,9 +224,13 @@ function App() {
           <Cite>George Box</Cite>
         </BlockQuote>
       </Slide>
-      <Slide>
-        <Image src={images.logo} width={500} />
+      <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
+        <BlockQuote>
+          <Quote> We wanted flying cars, instead we got 140 characters.</Quote>
+          <Cite>Peter Thiel</Cite>
+        </BlockQuote>
       </Slide>
+
       <Slide>
         {/* <Iframe url="https://feedx.io" width="100%" height="100%" /> */}
       </Slide>
