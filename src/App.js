@@ -64,8 +64,6 @@ const theme = createTheme(
   }
 );
 
-const Spacer = () => <div style={{ height: "0px" }} />;
-
 function App() {
   return (
     <Deck theme={theme} transition={["slide"]}>
@@ -305,12 +303,9 @@ function App() {
           textColor="secondary"
           textFont="secondary"
         >
-          Organizational Knowledge
+          Knowledge
         </Heading>
         <List>
-          <Appear>
-            <ListItem>The people</ListItem>
-          </Appear>
           <Appear>
             <ListItem>The farmers</ListItem>
           </Appear>
